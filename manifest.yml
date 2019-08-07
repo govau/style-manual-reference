@@ -1,0 +1,9 @@
+---
+applications:
+- name: style-manual-reference
+  buildpacks:
+    - staticfile_buildpack
+  stack: cflinuxfs3
+  instances: 1 
+  memory: 64M
+  disk_quota: 64M
